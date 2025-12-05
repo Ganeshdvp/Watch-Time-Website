@@ -21,11 +21,12 @@
 .card h3{
     font-size: 14px;
     font-weight: 600;
-    color: #4e4e4e;
+    color: #a7a7a7;
     margin: 6px 0;
 }
 .card p{
     font-size: 14px;
+    color: #797979;
 }
 
 

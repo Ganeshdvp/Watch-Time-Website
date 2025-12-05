@@ -9,13 +9,13 @@ const App = () => {
     const [searchQuery, setSearchQuery] = useState('');
     
   return (
-    <div>
+    <main>
       <Navbar setSidebar={setSidebar} setSearchQuery={setSearchQuery} /> {/* Pass setter */}
       <Routes>
         <Route path='/' element={<Home sidebar={sidebar} searchQuery={searchQuery} />} /> {/* Pass searchQuery */}
         <Route path='/video/:categoryId/:videoId' element={<Video/>}/>
       </Routes>
-    </div>
+    </main>
   )
 }
 
