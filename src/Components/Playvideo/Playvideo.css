@@ -92,10 +92,12 @@
     color: #787878;
     margin-top: 15px;
 }
+
 .comment{
     display: flex;
     align-items: flex-start;
     margin: 20px 0;
+    width: 60vw;
 }
 .comment img{
     width: 35px;
@@ -126,6 +128,10 @@
 .comment-action span{
     margin-right: 20px;
     color: #5a5a5a;
+}
+.comment-text{
+    width: 50vw;
+    overflow-x: hidden;
 }
 
 
